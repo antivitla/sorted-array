@@ -1,0 +1,31 @@
+{
+  "name": "mr-sorted-array",
+  "description": "Implementation of sorted array with binary search",
+  "version": "1.0.0",
+  "main": "sorted-array.node.js",
+  "devDependencies": {
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.7.1",
+    "testem": "^1.12.0",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "watch:win": "start webpack -w & start gulp watch",
+    "prepublish": "webpack & gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antivitla/sorted-array.git"
+  },
+  "keywords": [
+    "sorted",
+    "array"
+  ],
+  "author": "Виталий Кулешин <antivitla@gmail.com> (http://mr-woodman.ru/)",
+  "license": "MIT"
+}

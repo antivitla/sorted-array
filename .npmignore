@@ -1,0 +1,11 @@
+.*
+node_modules
+bower_components
+journal.md
+*.tests.js
+testem.json
+gulpfile.js
+webpack.config.js
+src
+bower.json
+README.CONTRIBUTORS.md

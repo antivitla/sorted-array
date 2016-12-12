@@ -1,0 +1,28 @@
+{
+  "name": "mr-sorted-array",
+  "description": "Implementation of sorted array with binary search",
+  "main": "sorted-array.browser.js",
+  "moduleType": ["globals"],
+  "authors": [
+    "Виталий Кулешин <antivitla@gmail.com> (http://mr-woodman.ru/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sorted",
+    "array"
+  ],
+  "homepage": "https://github.com/antivitla/sorted-array",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "journal.md",
+    "*.tests.js",
+    "gulpfile.js",
+    "webpack.config.js",
+    "testem.json",
+    "package.json"
+  ]
+}
