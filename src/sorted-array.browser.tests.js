@@ -133,7 +133,7 @@ describe("Сортированный Массив", function () {
     insert = { start: 128 };
     result = vector.insert(insert);
     // console.log(result, insert, vector.data);
-    expect(result.id).toBe(1)
+    expect(result.id).toBe(1);
 
   });
 

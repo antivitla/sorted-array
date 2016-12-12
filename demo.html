@@ -1,2 +1,7 @@
 <meta charset="utf-8">
 <script src="sorted-array.browser.js"></script>
+<script>
+var myArray = new SortedArray([], {
+  getKey: function (item) { return item.date; }
+});
+</script>

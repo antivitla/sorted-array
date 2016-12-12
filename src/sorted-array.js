@@ -41,6 +41,10 @@ function SortedArray (data, options) {
     this.direction = options.direction;
   }
 
+  // Если таки нет сортировки, делаем дефолтную
+  if (this.direction !== 0 && this.direction != 1 && this.direction != -1) {
+    this.direction = this.defaultDirection;
+  }
 }
 
 /** Мы должны знать направление своей сортировки.
