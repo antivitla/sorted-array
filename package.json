@@ -1,7 +1,7 @@
 {
   "name": "mr-sorted-array",
   "description": "Implementation of sorted array with binary search",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "sorted-array.node.js",
   "devDependencies": {
     "babel-core": "^6.16.0",
